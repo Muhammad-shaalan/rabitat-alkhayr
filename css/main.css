@@ -1,0 +1,186 @@
+@font-face {
+    font-family: bader;
+    src:url("../fonts/bader_al gorthabia.ttf");
+}
+
+@font-face {
+    font-family: Aqlaam;
+    src:url("../fonts/Aqlaam-Regular.otf");
+}
+
+@font-face {
+    font-family: AraAsmaaBeltajie;
+    src:url("../fonts/AraAsmaaBeltajie-Regular.otf");
+}
+
+.row{
+    margin-bottom: 25px
+}
+
+h1{
+    font-family: bader;
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 30px
+}
+
+nav{
+    font-family: bader;
+    padding: 15px !important;
+    font-size: 22px
+}
+
+nav a{
+    cursor: pointer
+}
+
+.header{
+    background-image: url(../images/header.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 92vh;
+    color: #FFF;
+    position: relative
+}
+
+.header .overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .42);
+    height: 100%;
+    width: 100%;
+}
+
+.header .overlay h1{
+    margin-top: 25vh;
+    font-family: Aqlaam;
+    background-color: rgba(0, 0, 0, .60);
+    padding: 20px;
+    border-radius: 10px
+}
+
+/*Start Our*/
+.our{
+    padding: 55px 0 75px 0;
+}
+
+@media (max-width: 600px) {
+  .our {
+    padding-right: 15px;
+  }
+}
+
+.our h4{
+    margin-left: 10px
+}
+
+.our p{
+    margin: 5px 0 10px 0;
+    font-family: bader;
+    font-size: 22px;
+    color: #6d6d6d
+}
+
+.our span{
+    float: left;
+    font-size: 12px;
+    margin-bottom: 10px
+}
+
+/*Start Our Service*/
+.service{
+    background-color: #fbfbfb;
+    padding: 55px
+}
+
+.service .card{
+    box-shadow: 3px 4px 10px rgba(0,0,0,.2);
+    margin-bottom: 13px;
+    width: 100% !important
+}
+
+.service .card h5{
+    font-family: bader;
+    font-size: 25px
+}
+
+.service .card p{
+    font-family: Aqlaam;
+    font-size: 18px;
+    line-height: 1.1
+}
+
+/*End Our Service*/
+
+/*Start Contact*/
+
+.contact{
+    padding: 55px 0 75px 0;
+}
+
+.contact .card{
+    border: 0;
+    width: 100% !important;
+    text-align: center
+}
+
+.contact p{
+    font-family: bader;
+    font-size: 18px;
+    color: #777676
+}
+
+.contact .contact-img{
+    margin: auto;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px
+}
+
+/*End Contact*/
+
+
+/*Start Footer*/
+
+.footer{
+    background-color: #fbfbfb
+}
+
+.footer p{
+    padding: 10px;
+    font-weight: 600;
+    color: #95959e;
+    margin-bottom: 0;
+}
+
+.footer p span{
+    color: #777575
+}
+
+/*End Footer*/
+
+/*Start Button Scroll*/
+
+#scroll-top{
+    position: fixed;
+    background-color: #ddd;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    left: 15px;
+    border-radius: 15px;
+    opacity: .7;
+    cursor: pointer;
+    display: none
+}
+
+#scroll-top:hover{opacity: 1}
+
+#scroll-top i{
+    line-height: 50px;
+    text-align: center;
+    display: block;}
+
+/*End Button Scroll*/
